@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="960px" height="960px" viewBox="0 0 960 960" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>com.sonoff/drivers/snzb-06p/assets/pair</title>
+    <title>com.sonoff/drivers/SNZB-06P/assets/pair</title>
     <style type="text/css">
         #light {
             animation: flash 10s infinite;

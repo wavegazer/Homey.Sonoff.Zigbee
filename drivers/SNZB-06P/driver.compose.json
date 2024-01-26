@@ -31,7 +31,7 @@
       }
     },
     "learnmode": {
-      "image": "/drivers/snzb-06p/assets/pair.svg",
+      "image": "/drivers/SNZB-06P/assets/pair.svg",
       "instruction": {
             "en": "Press the power button on your device during 5 secs or until its LED blinks red."
       }

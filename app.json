@@ -29,7 +29,11 @@
   },
   "support": "mailto:info@styrahem.se",
   "contributors": {
-    "developers": []
+    "developers": [
+      {
+        "name": "Ricardo Santos"
+      }
+    ]
   },
   "images": {
     "large": "assets/images/large.png",
@@ -467,6 +471,47 @@
           ]
         }
       ]
+    },
+    {
+      "id": "SNZB-06P",
+      "name": {
+        "en": "Sonoff SNZB-06P"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_motion"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "images": {
+        "small": "/drivers/SNZB-06P/assets/images/small.png",
+        "large": "/drivers/SNZB-06P/assets/images/large.png",
+        "xlarge": "/drivers/SNZB-06P/assets/images/xlarge.png"
+      },
+      "zigbee": {
+        "manufacturerName": "SONOFF",
+        "productId": "SNZB-06P",
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              1030,
+              1280
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/SNZB-06P/assets/pair.svg",
+          "instruction": {
+            "en": "Press the power button on your device during 5 secs or until its LED blinks red."
+          }
+        }
+      }      
     }
   ]
 }

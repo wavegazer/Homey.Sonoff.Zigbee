@@ -28,7 +28,11 @@
   },
   "support": "mailto:info@styrahem.se",
   "contributors": {
-    "developers": []
+    "developers": [
+      {
+        "name": "Ricardo Santos"
+      }
+    ]
   },
   "images": {
     "large": "assets/images/large.png",
