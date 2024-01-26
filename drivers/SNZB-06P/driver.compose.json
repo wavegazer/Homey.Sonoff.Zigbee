@@ -1,0 +1,40 @@
+{
+  "name": {
+    "en": "Occupancy sensor (SNZB-06P)"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "alarm_motion"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": "SONOFF",
+    "productId": "SNZB-06P",
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,    
+          3,    
+          1030, 
+          1280  
+        ]        
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/snzb-06p/assets/pair.svg",
+      "instruction": {
+            "en": "Press the power button on your device during 5 secs or until its LED blinks red."
+      }
+    }
+  }
+}
